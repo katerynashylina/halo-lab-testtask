@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.home {
+  background-color: $lightGreenColor;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+
+  &__greeting {
+    font-size: 46px;
+    font-family: "Niconne", cursive;
+  }
+}

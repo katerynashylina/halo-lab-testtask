@@ -1,0 +1,50 @@
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  background-color: #fff;
+
+  &__wrapper {
+    position: relative;
+    width: 200px;
+  }
+
+  &--open {
+    &__icon {
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &--selected {
+    flex-grow: 1;
+  }
+}
+
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+
+  &__element {
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover,
+    &--selected {
+      background-color: #f0f0f0;
+    }
+  }
+}
+
+.select.select--open .select--open__icon {
+  transform: rotateX(180deg);
+}

@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.drone {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: rotate(180deg);
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid $triangleColor;
+  animation: moveDown linear;
+}
+
+@keyframes moveDown {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 100vh;
+  }
+}

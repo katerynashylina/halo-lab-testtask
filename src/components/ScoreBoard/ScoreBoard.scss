@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__container {
+    height: 350px;
+    width: 450px;
+    background-color: $lightBlueColor;
+    border: 4px solid $triangleColor;
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "difficultyLevels": [
+    {
+      "id": 1,
+      "level": 0,
+      "description": "Very Easy"
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "description": "Easy"
+    },
+    {
+      "id": 3,
+      "level": 2,
+      "description": "Moderate"
+    },
+    {
+      "id": 4,
+      "level": 3,
+      "description": "Fairly Challenging"
+    },
+    {
+      "id": 5,
+      "level": 4,
+      "description": "Challenging"
+    },
+    {
+      "id": 6,
+      "level": 5,
+      "description": "Very Challenging"
+    },
+    {
+      "id": 7,
+      "level": 6,
+      "description": "Difficult"
+    },
+    {
+      "id": 8,
+      "level": 7,
+      "description": "Extremely Difficult"
+    },
+    {
+      "id": 9,
+      "level": 8,
+      "description": "Almost Impossible"
+    },
+    {
+      "id": 10,
+      "level": 9,
+      "description": "Impossible"
+    }
+  ]
+}

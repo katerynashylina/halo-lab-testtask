@@ -1,0 +1,9 @@
+@import './styles/variables.scss';
+
+.page {
+  font-family: "Inter", sans-serif;
+
+  &__container {
+    min-height: 100vh;
+  } 
+}
